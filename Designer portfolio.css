@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background-color: whitesmoke;}
+.nav{ color: white;
+background-color: black;
+width: 98%;
+display: grid;
+border-radius: 10px;
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 30px;
+margin: 10px;}
+.nav a{color: white;
+    text-decoration: none;}
+     .anchor:active{color:white;
+    }
+     .anchor:visited{color: white;}
+     .anchor:hover{
+        color: rgb(205, 0, 0);
+        text-decoration: underline;
+    }
+   
+.h2{cursor:pointer;
+    padding:5%;}
+.ul li{cursor: pointer;
+    display:inline;
+    padding: 7%;
+    font-size: 25px;
+}
+.ul{
+padding-top: 10%;    
+}    
+.button button{cursor: pointer;
+    color: white;
+    background-color: rgb(255,77,0);
+    border-color: rgb(255,77,0);
+    font-size: 15px;
+    height: 55px;
+    width: 80%;
+    border-radius: 50px;
+   
+}
+.button{padding-left: 50%;
+    padding-top: 9.5%;   
+}
+.Design{
+    height:100%;
+    width: 96%; 
+    background-color: rgb(29, 28, 28);
+    color: white;
+    padding-top: 15%;
+    padding-left: 2%;
+    border-radius: 10px;
+    font-size: 60px;
+    margin: 10px;
+}
+.Design h1:nth-child(2){
+    color: rgb(255,77,0);
+}
+.Design p{
+    padding-top: 5%;
+    font-size: 45px;
+}
+.Design button{color: white;
+    background-color: rgb(255,77,0);
+    border-color: rgb(255,77,0);
+    height: 80px;
+    width: 180px;
+    margin-top: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.main{height: 50%;
+width: 95%;
+color: white;
+font-weight: bold;
+font-size: 55px;
+background-color: rgb(227, 72, 6);
+margin: 1%;
+padding: 1.5%;
+border-radius: 10px;
+}
+.imgbox1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1%;
+    padding: 0;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+.imgbox1 button{
+    height: 60px;
+    border: 0px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.imgbox1 button:hover{
+    color: rgb(205, 0, 0);
+}
+.img1{cursor: pointer;
+    background-image: url("design.jpg" );
+    background-size:cover;
+    background-position-x: center;
+    height:80vh ;
+    border-radius: 20px;
+    margin: 5px;
+}
+.img2{background-image: url("Portfolio.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height:80vh ;cursor: pointer;
+    border-radius: 20px;
+    margin: 5px;
+}
+.time{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    font-size: 40px;
+    margin: 1%;
+}
+.time h1{
+    color: rgb(211, 2, 2);
+}
+.time p{
+    padding-top: 60%;
+    
+}
+.year{background-color: white;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 5%;
+    
+
+}
+sup{
+    font-size: 20px;
+    color: rgb(211, 2, 2);
+    position: relative;
+    top: -20px;
+}
+
+.teams{background-color: white;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 5%;
+    
+
+}
+
+.clients{background-color: white;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 5%;
+    
+
+}
+.imgbox2{height: 120vh;
+    width: 95vw;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-areas: "img1 img1 img1"
+                         "img2 img3 img3";
+    grid-template-columns: 1fr 1fr 1fr;                     
+    
+}
+.img3{background-image: url("image1.jpg");
+    grid-area: img1;
+background-size: cover;
+background-position:center;
+border-radius: 20px;
+margin: 2%;
+}
+.img4{
+    grid-area: img2;
+    background-image:url("image2.jpg") ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 4%;
+}
+.img5{
+    grid-area: img3;
+    background-image:url("image3.jpg") ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 2%;
+    margin-left: 25%;
+}
+.box{
+    border-radius: 10px ;
+    height: auto;
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(200, 64, 6);
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30% 30%;
+    overflow-x: scroll;
+    gap: 50px;
+}
+.programmer{height: 200px;
+    cursor:grab;
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+.programmer h2{
+    color: rgb(205, 0, 0);
+    padding: 5px;
+}
+.programmer h4{
+    padding: 10px;
+}
+.programmer p{
+    font-size: large;
+    padding: 10px;
+}
+.imgbox3{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2%;
+}
+.imgbox3 h1{
+    color: rgb(211, 2, 2);
+    font-size: 70px;
+}
+.imgbox3 p{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.img6{
+    background-image: url(image6.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px ;
+    width: 82vw ;
+    margin-left: 7%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.imgbox3 button{
+    background-color: rgb(255,77,0);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 50px;
+    margin: 2%;
+    cursor: pointer;
+    border-color: rgb(255,77,0);
+}
+ .email{cursor: pointer;
+    background-color: rgb(29, 28, 28);
+    height: 160px;
+    margin: 2%;
+    border-radius: 10px
+ }
+ .email h3{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+ }
+ .email h1{
+    color: rgb(200, 64, 6);
+    font-size: 70px; 
+    padding: 15px;
+    display: inline;
+    position: relative;
+    font-weight: bold;
+}
+.email h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 5px;
+    bottom: 0;
+    margin-left: 15px;
+    left: 0;
+    background-color: rgb(200, 64, 6);
+    transform-origin: bottom left;
+    transition: all 0.5s ease-out;
+    
+}
+.email h1:hover::after{transform: scale(1);
+    transform-origin: bottom left;
+ }
+ .table1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    margin: 2%;
+    margin-top: 0;
+    padding: 2%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 40px;
+    
+ }
+ .table{ color: white;
+    background-color: rgb(29, 28, 28);
+    margin: 2%;
+    margin-bottom: 0;
+    padding: 2%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 50px;
+    font-size: 38px;}
+ .table1 div{
+    color: rgb(200, 64, 6);
+   
+ font-weight: bold;
+ 
+    
+ }
+ .tabledata1{
+border: 2px solid gray;
+}
+ .tabledata2{
+border: 2px solid gray;
+}
+ .tabledata3{
+border: 2px solid gray;
+}
+ 
+ .table1 sup{
+    color: gray;
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+ }
+ .table1 h1{color: white;
+
+ }
+ .form{
+    height: 80%;
+   width: 96%;
+   background-color: rgb(227, 72, 6);
+   margin: 2%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 40px;
+   border-radius: 10px;
+ }
+ .form input{
+    border-radius: 10px;
+    border:0px;
+    height: 50px;
+    width: 65%;
+    padding: 10px;
+    margin: 10px;
+ }
+  input:nth-child(8){
+    height: 100px;
+    
+ }
+ .form button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 20px;cursor: pointer;
+ }
+ .hover{background-color: rgb(29, 28, 28);
+    width: 92%;
+    margin: 2%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+   
+    
+ }
+ .hover1,.hover2,.hover3,.hover4{
+    padding-top: 120px;
+    text-align: center;
+    border: 2px solid gray;
+    border-top: 0px;
+    border-bottom: 4px solid gray;
+    cursor: pointer;
+ }
+ .hover1{border-left: 0px;}
+ .hover4{border-right: 0px;}
+ .hover1:hover,.hover2:hover,.hover3:hover,.hover4:hover{color: rgb(227, 72, 6);}
+ footer{
+    color: white;
+    width: 96%;
+    margin: 2%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+    font-size: 20px;
+    padding-top: 25px;
+ }
+ @media screen and (max-width:420px) {
+   .nav,ul,.Design,.main,.imgbox1,.imgbox2,.imgbox3,.time,.box,.email,.table1,table,.form,.hover,footer{
+        display: grid;
+        grid-template-columns: 1fr;
+      
+        font-size: 20px;
+    }
+      
+    .email h1{ font-size: 50px;}
+    
+ }
