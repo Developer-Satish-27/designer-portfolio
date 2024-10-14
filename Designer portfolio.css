@@ -421,7 +421,7 @@ border: 2px solid gray;
     padding-top: 25px;
  }
  @media screen and (max-width:420px) {
-   .nav,ul,.Design,.main,.imgbox1,.imgbox2,.imgbox3,.time,.box,.email,.table1,table,.form,.hover,footer{
+   .Design,.main,.imgbox1,.imgbox2,.imgbox3,.time,.box,.email,.table1,table,.form,.hover,footer{
         display: grid;
         grid-template-columns: 1fr;
       
