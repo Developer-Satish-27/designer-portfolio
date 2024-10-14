@@ -430,4 +430,57 @@ border: 2px solid gray;
       
     .email h1{ font-size: 50px;}
     
- }
+ 
+    nav ul {
+        display: none;
+    }
+
+    #btn1 {
+        display: block;
+        cursor: pointer;
+    }
+
+    #check:checked ~ #btn1 {
+        display: none;
+    }
+
+    #check:checked ~ #btn2 {
+        display: block;
+        padding-top: 20px;
+        cursor: pointer;
+    }
+
+    #check:checked ~ #btn3 {
+        display: block;
+        height: 100vh;
+        width: 20vw;
+        position: fixed;
+        top: 0;
+        left: 80vw;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 999; /* Ensures menu overlay stays on top */
+    }
+
+    #check:checked ~ ul {
+        height: 100vh;
+        width: 80vw;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        display: flex;
+        flex-direction: column; /* Stack menu items vertically */
+        justify-content: flex-start;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
+        backdrop-filter: blur(20px);
+        transition: all 0.5s ease-in-out;
+z-index:1000;
+    }
+
+    ul li {
+        margin: 20px 0;
+        width: 100%;
+        text-align:left;
+
+    }
+}
