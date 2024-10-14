@@ -31,6 +31,15 @@ margin: 10px;}
 .ul{
 padding-top: 10%;    
 }    
+#check, #btn1, #btn2, #btn3 {
+  display: none; }
+
+/* Icons (menu, close, theme switch) */
+#menu, #close, #icon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
 .button button{cursor: pointer;
     color: white;
     background-color: rgb(255,77,0);
