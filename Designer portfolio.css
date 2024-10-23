@@ -3,15 +3,14 @@
     padding: 0;
 }
 body{background-color: whitesmoke;}
-.nav{ color: white;
+nav{ color: white;
 background-color: black;
 width: 98%;
-display: grid;
+display: flex;
 border-radius: 10px;
-grid-template-columns: 1fr 1fr 1fr;
 font-size: 30px;
 margin: 10px;}
-.nav a{color: white;
+nav a{color: white;
     text-decoration: none;}
      .anchor:active{color:white;
     }
@@ -21,21 +20,22 @@ margin: 10px;}
         text-decoration: underline;
     }
    
-.h2{cursor:pointer;
-    padding:5%;}
-.ul li{cursor: pointer;
-    display:inline;
-    padding: 7%;
+h2{cursor:pointer;
+    }
+ul li{cursor: pointer;
+    display:flex;
     font-size: 25px;
 }
-.ul{
-padding-top: 10%;    
+ul{width: 98%;
+display: flex;
+align-items: center;
+justify-content: space-around;
 }    
 #check, #btn1, #btn2, #btn3 {
   display: none; }
 
 /* Icons (menu, close, theme switch) */
-#menu, #close, #icon {
+#menu, #close{
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -46,8 +46,8 @@ padding-top: 10%;
     border-color: rgb(255,77,0);
     font-size: 15px;
     height: 55px;
-    width: 80%;
-    border-radius: 50px;
+    width:150px;
+    border-radius: 30px;
    
 }
 .button{padding-left: 50%;
@@ -430,8 +430,7 @@ border: 2px solid gray;
       
     .email h1{ font-size: 50px;}
     
- 
-     .ul {
+    nav ul {
         display: none;
     }
 
@@ -461,17 +460,17 @@ border: 2px solid gray;
         z-index: 999; /* Ensures menu overlay stays on top */
     }
 
-    #check:checked .ul {
-        height: 100vh;
+    #check:checked ~ ul {
+        height: 100%;
         width: 80vw;
         position: fixed;
-        top: 80px;
-        left: 0;
+        left:0;
+        color: white;
         display: flex;
         flex-direction: column; /* Stack menu items vertically */
         justify-content: flex-start;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
+        background-color: rgba(255, 235, 235, 0.8); /* Darker background for better contrast */
         backdrop-filter: blur(20px);
         transition: all 0.5s ease-in-out;
 z-index:1000;
@@ -482,5 +481,21 @@ z-index:1000;
         width: 100%;
         text-align:left;
 
+    }
+
+    ul li:hover {
+       
+        color: white;
+        background-color: gray;
+        transition: background-color 0.5s ease-in-out;
+    }
+   
+   
+
+   
+
+    #menu, #close{
+        height: 25px;
+        width: 25px;
     }
 }
